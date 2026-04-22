@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -l \"breadcrumb_title\\\\|breadcrumb\" \"c:\\\\wamp64\\\\www\\\\laravel-12\\\\WidriveU\\\\resources\\\\views\\\\frontend\"/*.blade.php)",
+      "Bash(php -r \":*)",
+      "Bash(python3 -c \":*)",
+      "Bash(php -r \"echo substr\\(file_get_contents\\(''c:/wamp64/www/laravel-12/WidriveU/resources/views/customer/reservations/index.blade.php''\\), 0, 150\\);\")",
+      "Bash(php \"c:/wamp64/www/laravel-12/WidriveU/write_index.php\")",
+      "Bash(php write_index.php)",
+      "Bash(find c:wamp64wwwlaravel-12WidriveU -name *PaymentController* -o -name *payment* -type f)",
+      "Bash(composer require:*)",
+      "Bash(php -r \"require ''vendor/autoload.php''; echo class_exists\\(''Barryvdh\\\\DomPDF\\\\Facade\\\\Pdf''\\) ? ''dompdf OK'' : ''NOT FOUND'';\")",
+      "Bash(grep -v \"#\\\\|//\")",
+      "Bash(php artisan:*)",
+      "Bash(find c:/wamp64/www/laravel-12/WidriveU/bootstrap -name *.php)",
+      "Bash(xargs grep:*)",
+      "Bash(xxd)",
+      "Bash(while read:*)",
+      "Bash(do sed:*)",
+      "Bash(grep -rhn \"#0048B9\\\\|#0048b9\\\\|#1D4ED8\\\\|#2563EB\\\\|#3B82F6\\\\|#60A5FA\\\\|#93C5FD\\\\|#DBEAFE\\\\|#EFF6FF\\\\|#1e40af\\\\|#1d4ed8\\\\|blue\" c:/wamp64/www/laravel-12/WidriveU/resources/views/ c:/wamp64/www/laravel-12/WidriveU/public/assets/css/style.css --include=*.php --include=*.css --include=*.blade.php)",
+      "Bash(sed -i 's/filter: sepia\\(1\\) saturate\\(10000%\\) hue-rotate\\(300deg\\) brightness\\(0.526\\);/filter: brightness\\(0\\) invert\\(1\\) sepia\\(1\\) saturate\\(10000%\\) hue-rotate\\(300deg\\) brightness\\(0.526\\);/g' \"c:/wamp64/www/laravel-12/WidriveU/resources/views/frontend/assets/css/style.css\" \"c:/wamp64/www/laravel-12/WidriveU/public/assets/css/style.css\")",
+      "Bash(__NEW_LINE_c281b6ad4ac607e8__ sed:*)",
+      "Bash(__NEW_LINE_c281b6ad4ac607e8__ echo:*)",
+      "Bash(sed -i '/\\\\.custom_btn\\\\.btn_outline_red img {/,/^}/d' \"c:/wamp64/www/laravel-12/WidriveU/resources/views/frontend/assets/css/style.css\" \"c:/wamp64/www/laravel-12/WidriveU/public/assets/css/style.css\")",
+      "Bash(sed -i '/\\\\.custom_btn\\\\.btn_outline_red:hover img {/,/^}/d' \"c:/wamp64/www/laravel-12/WidriveU/resources/views/frontend/assets/css/style.css\" \"c:/wamp64/www/laravel-12/WidriveU/public/assets/css/style.css\")"
+    ]
+  }
+}
